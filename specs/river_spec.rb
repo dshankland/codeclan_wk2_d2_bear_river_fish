@@ -26,8 +26,8 @@ class TestRiver < MiniTest::Test
     assert_equal(101, @river.count_fish())
   end
 
-  def test_remove_fish_from_river()
-    @river.remove_fish()
+  def test_catch_fish_from_river()
+    @river.catch_fish()
     assert_equal(99, @river.count_fish())
   end
 
